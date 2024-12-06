@@ -1,0 +1,22 @@
+{
+    "files": [],
+    "references": [
+      {
+        "path": "./tsconfig.app.json"
+      },
+      {
+        "path": "./tsconfig.node.json"
+      }
+    ],
+    
+      "compilerOptions": {
+        "baseUrl": ".", // Base path for resolving modules
+        "paths": {
+          "@/*": ["src/*"] // Alias '@/' to the 'src/' directory
+        }
+      },
+      "include": ["src/**/*"]
+    
+     // Include all files in the 'src' folder
+  }
+  
